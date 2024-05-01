@@ -3,6 +3,7 @@
 ## Config
 `
 node: > 18.0.0
+jdk: 17
 `
 
 ## Commands
@@ -27,5 +28,5 @@ node: > 18.0.0
 rm -rf node_modules   \
 npm cache clean --force  \
 npm install \
-watchman watch-del-all del %localappdata%Temphaste-map-* del %localappdata%Tempmetro-cache \
+watchman watch-del-all \
 `
